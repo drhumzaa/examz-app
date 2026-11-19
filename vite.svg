@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="enzymeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="50%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0D9488" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="#072227"/>
+  <g filter="url(#glow)">
+    <path d="M12.6 16.6a9 9 0 0 1 12.8 0L24 18.2l-1.4-1.6a9 9 0 0 0-12.8 0 9 9 0 0 0 0 12.7l14.2 14.3 14.2-14.3a9 9 0 0 0 0-12.7 9 9 0 0 0-12.8 0L24 18.2" stroke="url(#enzymeGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 21v10m-5-5h10" stroke="url(#enzymeGrad)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
